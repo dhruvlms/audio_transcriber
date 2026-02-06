@@ -3,6 +3,7 @@ import uuid
 from flask import Flask, request, jsonify
 from pydub import AudioSegment
 import whisper
+from flask_cors import CORS
 
 
 from dotenv import load_dotenv
@@ -19,6 +20,8 @@ client = genai.Client(api_key=GEMINI_API_KEY)
 
 
 app = Flask(__name__)
+CORS(app)
+
 
 UPLOAD_FOLDER = "uploads"
 CHUNK_FOLDER = "chunks"
