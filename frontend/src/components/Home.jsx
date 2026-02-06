@@ -4,6 +4,8 @@ import { Mic, Upload, X, Check, Loader, Download, PlayCircle, RotateCcw } from "
 import "./Home.css";
 const apiUrl = process.env.API_URL;
 
+
+
 const Home = () => {
   const [showRecordModal, setShowRecordModal] = useState(false);
   const [showUploadModal, setShowUploadModal] = useState(false);
