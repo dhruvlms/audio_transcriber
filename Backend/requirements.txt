@@ -6,3 +6,4 @@ ffmpeg-python
 openai-whisper
 google-genai
 python-dotenv
+flask-cors
