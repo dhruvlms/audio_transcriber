@@ -1,0 +1,8 @@
+flask
+pydub
+whisper
+torch
+ffmpeg-python
+openai-whisper
+google-genai
+python-dotenv
